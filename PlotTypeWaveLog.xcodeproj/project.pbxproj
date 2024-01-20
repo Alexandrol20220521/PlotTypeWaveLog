@@ -1,0 +1,402 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8DA326D32B4E630A002FB03C /* PlotTypeWaveLogApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA326D22B4E630A002FB03C /* PlotTypeWaveLogApp.swift */; };
+		8DA326D52B4E630A002FB03C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA326D42B4E630A002FB03C /* ContentView.swift */; };
+		8DA326D72B4E630B002FB03C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DA326D62B4E630B002FB03C /* Assets.xcassets */; };
+		8DA326DA2B4E630B002FB03C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DA326D92B4E630B002FB03C /* Preview Assets.xcassets */; };
+		8DA326E12B4E63C1002FB03C /* SplashScreenVew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA326E02B4E63C1002FB03C /* SplashScreenVew.swift */; };
+		8DA326E82B4E68A6002FB03C /* AppScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA326E72B4E68A6002FB03C /* AppScreen.swift */; };
+		8DA326EA2B4E6E1C002FB03C /* WaveMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA326E92B4E6E1C002FB03C /* WaveMap.swift */; };
+		8DA326F42B4E80F5002FB03C /* LocationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA326F32B4E80F5002FB03C /* LocationModel.swift */; };
+		8DA326F62B4E9260002FB03C /* EditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA326F52B4E9260002FB03C /* EditView.swift */; };
+		8DA326F82B4FCACE002FB03C /* WaveList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA326F72B4FCACE002FB03C /* WaveList.swift */; };
+		8DA326FA2B4FCC32002FB03C /* SurfDestinationMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA326F92B4FCC32002FB03C /* SurfDestinationMap.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8DA326CF2B4E630A002FB03C /* PlotTypeWaveLog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlotTypeWaveLog.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DA326D22B4E630A002FB03C /* PlotTypeWaveLogApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlotTypeWaveLogApp.swift; sourceTree = "<group>"; };
+		8DA326D42B4E630A002FB03C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8DA326D62B4E630B002FB03C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8DA326D92B4E630B002FB03C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8DA326E02B4E63C1002FB03C /* SplashScreenVew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenVew.swift; sourceTree = "<group>"; };
+		8DA326E72B4E68A6002FB03C /* AppScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppScreen.swift; sourceTree = "<group>"; };
+		8DA326E92B4E6E1C002FB03C /* WaveMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaveMap.swift; sourceTree = "<group>"; };
+		8DA326F32B4E80F5002FB03C /* LocationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationModel.swift; sourceTree = "<group>"; };
+		8DA326F52B4E9260002FB03C /* EditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditView.swift; sourceTree = "<group>"; };
+		8DA326F72B4FCACE002FB03C /* WaveList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaveList.swift; sourceTree = "<group>"; };
+		8DA326F92B4FCC32002FB03C /* SurfDestinationMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurfDestinationMap.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8DA326CC2B4E630A002FB03C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8DA326C62B4E630A002FB03C = {
+			isa = PBXGroup;
+			children = (
+				8DA326D12B4E630A002FB03C /* PlotTypeWaveLog */,
+				8DA326D02B4E630A002FB03C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8DA326D02B4E630A002FB03C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8DA326CF2B4E630A002FB03C /* PlotTypeWaveLog.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8DA326D12B4E630A002FB03C /* PlotTypeWaveLog */ = {
+			isa = PBXGroup;
+			children = (
+				8DA326D22B4E630A002FB03C /* PlotTypeWaveLogApp.swift */,
+				8DA326E22B4E67E8002FB03C /* Views */,
+				8DA326F22B4E80BB002FB03C /* DataModel */,
+				8DA326E62B4E6855002FB03C /* Extensions */,
+				8DA326D62B4E630B002FB03C /* Assets.xcassets */,
+				8DA326D82B4E630B002FB03C /* Preview Content */,
+			);
+			path = PlotTypeWaveLog;
+			sourceTree = "<group>";
+		};
+		8DA326D82B4E630B002FB03C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8DA326D92B4E630B002FB03C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8DA326E22B4E67E8002FB03C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8DA326D42B4E630A002FB03C /* ContentView.swift */,
+				8DA326F92B4FCC32002FB03C /* SurfDestinationMap.swift */,
+				8DA326E92B4E6E1C002FB03C /* WaveMap.swift */,
+				8DA326F52B4E9260002FB03C /* EditView.swift */,
+				8DA326E02B4E63C1002FB03C /* SplashScreenVew.swift */,
+				8DA326F72B4FCACE002FB03C /* WaveList.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8DA326E62B4E6855002FB03C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				8DA326E72B4E68A6002FB03C /* AppScreen.swift */,
+			);
+			name = Extensions;
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8DA326F22B4E80BB002FB03C /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				8DA326F32B4E80F5002FB03C /* LocationModel.swift */,
+			);
+			path = DataModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8DA326CE2B4E630A002FB03C /* PlotTypeWaveLog */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8DA326DD2B4E630B002FB03C /* Build configuration list for PBXNativeTarget "PlotTypeWaveLog" */;
+			buildPhases = (
+				8DA326CB2B4E630A002FB03C /* Sources */,
+				8DA326CC2B4E630A002FB03C /* Frameworks */,
+				8DA326CD2B4E630A002FB03C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PlotTypeWaveLog;
+			productName = PlotTypeWaveLog;
+			productReference = 8DA326CF2B4E630A002FB03C /* PlotTypeWaveLog.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8DA326C72B4E630A002FB03C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					8DA326CE2B4E630A002FB03C = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 8DA326CA2B4E630A002FB03C /* Build configuration list for PBXProject "PlotTypeWaveLog" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8DA326C62B4E630A002FB03C;
+			productRefGroup = 8DA326D02B4E630A002FB03C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8DA326CE2B4E630A002FB03C /* PlotTypeWaveLog */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8DA326CD2B4E630A002FB03C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DA326DA2B4E630B002FB03C /* Preview Assets.xcassets in Resources */,
+				8DA326D72B4E630B002FB03C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8DA326CB2B4E630A002FB03C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DA326F82B4FCACE002FB03C /* WaveList.swift in Sources */,
+				8DA326D52B4E630A002FB03C /* ContentView.swift in Sources */,
+				8DA326D32B4E630A002FB03C /* PlotTypeWaveLogApp.swift in Sources */,
+				8DA326E12B4E63C1002FB03C /* SplashScreenVew.swift in Sources */,
+				8DA326EA2B4E6E1C002FB03C /* WaveMap.swift in Sources */,
+				8DA326F62B4E9260002FB03C /* EditView.swift in Sources */,
+				8DA326F42B4E80F5002FB03C /* LocationModel.swift in Sources */,
+				8DA326FA2B4FCC32002FB03C /* SurfDestinationMap.swift in Sources */,
+				8DA326E82B4E68A6002FB03C /* AppScreen.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		8DA326DB2B4E630B002FB03C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8DA326DC2B4E630B002FB03C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8DA326DE2B4E630B002FB03C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PlotTypeWaveLog/Preview Content\"";
+				DEVELOPMENT_TEAM = JRKRYNA77K;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Ryuutarou.com.PlotTypeWaveLog;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8DA326DF2B4E630B002FB03C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PlotTypeWaveLog/Preview Content\"";
+				DEVELOPMENT_TEAM = JRKRYNA77K;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Ryuutarou.com.PlotTypeWaveLog;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8DA326CA2B4E630A002FB03C /* Build configuration list for PBXProject "PlotTypeWaveLog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DA326DB2B4E630B002FB03C /* Debug */,
+				8DA326DC2B4E630B002FB03C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8DA326DD2B4E630B002FB03C /* Build configuration list for PBXNativeTarget "PlotTypeWaveLog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DA326DE2B4E630B002FB03C /* Debug */,
+				8DA326DF2B4E630B002FB03C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8DA326C72B4E630A002FB03C /* Project object */;
+}
