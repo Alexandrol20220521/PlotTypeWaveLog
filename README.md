@@ -7,5 +7,4 @@ Looking for wave that never found yet
 update when it is progressed.
 
 
-![Alert](Simulator Screen Recording - iPhone 15 Pro - 2024-01-20 at 17.32.38.gif)
-
+![Alt](/Users/ryuutarounakajima/Desktop/PlotTypeWaveLog/Simulator Screen Recording - iPhone 15 Pro - 2024-01-20 at 17.32.38.gif)
