@@ -6,6 +6,7 @@ Looking for wave that never found yet
 
 update when it is progressed.
 
-![Alert](/Users/ryuutarounakajima/Desktop/PlotTypeWaveLog/GIF/Gif1.gif)
+![Alert Text](/Users/ryuutarounakajima/Desktop/PlotTypeWaveLog/GIF/test.png)
+
 
 
