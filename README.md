@@ -6,7 +6,6 @@ Looking for wave that never found yet
 
 update when it is progressed.
 
+![Alert](/Users/ryuutarounakajima/Desktop/PlotTypeWaveLog/GIF/Gif1.gif)
 
-
-![Alert](/PlotTypeWaveLog/README.md/Simulator Screen Recording - iPhone 15 Pro - 2024-01-20 at 17.32.38.gif)
 
