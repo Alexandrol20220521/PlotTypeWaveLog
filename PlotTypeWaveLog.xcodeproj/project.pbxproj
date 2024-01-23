@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8D42841A2B5D0E3E008722CA /* ReelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4284192B5D0E3E008722CA /* ReelView.swift */; };
 		8DA326D32B4E630A002FB03C /* PlotTypeWaveLogApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA326D22B4E630A002FB03C /* PlotTypeWaveLogApp.swift */; };
 		8DA326D52B4E630A002FB03C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA326D42B4E630A002FB03C /* ContentView.swift */; };
 		8DA326D72B4E630B002FB03C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DA326D62B4E630B002FB03C /* Assets.xcassets */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8D4284192B5D0E3E008722CA /* ReelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReelView.swift; sourceTree = "<group>"; };
 		8DA326CF2B4E630A002FB03C /* PlotTypeWaveLog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlotTypeWaveLog.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DA326D22B4E630A002FB03C /* PlotTypeWaveLogApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlotTypeWaveLogApp.swift; sourceTree = "<group>"; };
 		8DA326D42B4E630A002FB03C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -90,6 +92,7 @@
 				8DA326F92B4FCC32002FB03C /* SurfDestinationMap.swift */,
 				8DA326E92B4E6E1C002FB03C /* WaveMap.swift */,
 				8DA326F52B4E9260002FB03C /* EditView.swift */,
+				8D4284192B5D0E3E008722CA /* ReelView.swift */,
 				8DA326E02B4E63C1002FB03C /* SplashScreenVew.swift */,
 				8DA326F72B4FCACE002FB03C /* WaveList.swift */,
 			);
@@ -185,6 +188,7 @@
 			files = (
 				8DA326F82B4FCACE002FB03C /* WaveList.swift in Sources */,
 				8DA326D52B4E630A002FB03C /* ContentView.swift in Sources */,
+				8D42841A2B5D0E3E008722CA /* ReelView.swift in Sources */,
 				8DA326D32B4E630A002FB03C /* PlotTypeWaveLogApp.swift in Sources */,
 				8DA326E12B4E63C1002FB03C /* SplashScreenVew.swift in Sources */,
 				8DA326EA2B4E6E1C002FB03C /* WaveMap.swift in Sources */,
