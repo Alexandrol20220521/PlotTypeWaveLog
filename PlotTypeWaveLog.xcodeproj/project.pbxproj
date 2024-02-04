@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		8D42841A2B5D0E3E008722CA /* ReelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4284192B5D0E3E008722CA /* ReelView.swift */; };
+		8D42841E2B60F6A8008722CA /* CameraViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D42841D2B60F6A8008722CA /* CameraViewModel.swift */; };
 		8DA326D32B4E630A002FB03C /* PlotTypeWaveLogApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA326D22B4E630A002FB03C /* PlotTypeWaveLogApp.swift */; };
 		8DA326D52B4E630A002FB03C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA326D42B4E630A002FB03C /* ContentView.swift */; };
 		8DA326D72B4E630B002FB03C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DA326D62B4E630B002FB03C /* Assets.xcassets */; };
@@ -23,6 +24,8 @@
 
 /* Begin PBXFileReference section */
 		8D4284192B5D0E3E008722CA /* ReelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReelView.swift; sourceTree = "<group>"; };
+		8D42841D2B60F6A8008722CA /* CameraViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewModel.swift; sourceTree = "<group>"; };
+		8D42841F2B6413F9008722CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		8DA326CF2B4E630A002FB03C /* PlotTypeWaveLog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlotTypeWaveLog.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DA326D22B4E630A002FB03C /* PlotTypeWaveLogApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlotTypeWaveLogApp.swift; sourceTree = "<group>"; };
 		8DA326D42B4E630A002FB03C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -48,6 +51,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8D42841B2B60F571008722CA /* ReelViews */ = {
+			isa = PBXGroup;
+			children = (
+				8D4284192B5D0E3E008722CA /* ReelView.swift */,
+			);
+			path = ReelViews;
+			sourceTree = "<group>";
+		};
+		8D42841C2B60F61C008722CA /* LaunchScreen */ = {
+			isa = PBXGroup;
+			children = (
+				8DA326E02B4E63C1002FB03C /* SplashScreenVew.swift */,
+			);
+			path = LaunchScreen;
+			sourceTree = "<group>";
+		};
 		8DA326C62B4E630A002FB03C = {
 			isa = PBXGroup;
 			children = (
@@ -67,8 +86,10 @@
 		8DA326D12B4E630A002FB03C /* PlotTypeWaveLog */ = {
 			isa = PBXGroup;
 			children = (
+				8D42841F2B6413F9008722CA /* Info.plist */,
 				8DA326D22B4E630A002FB03C /* PlotTypeWaveLogApp.swift */,
 				8DA326E22B4E67E8002FB03C /* Views */,
+				8D42841C2B60F61C008722CA /* LaunchScreen */,
 				8DA326F22B4E80BB002FB03C /* DataModel */,
 				8DA326E62B4E6855002FB03C /* Extensions */,
 				8DA326D62B4E630B002FB03C /* Assets.xcassets */,
@@ -91,10 +112,9 @@
 				8DA326D42B4E630A002FB03C /* ContentView.swift */,
 				8DA326F92B4FCC32002FB03C /* SurfDestinationMap.swift */,
 				8DA326E92B4E6E1C002FB03C /* WaveMap.swift */,
-				8DA326F52B4E9260002FB03C /* EditView.swift */,
-				8D4284192B5D0E3E008722CA /* ReelView.swift */,
-				8DA326E02B4E63C1002FB03C /* SplashScreenVew.swift */,
 				8DA326F72B4FCACE002FB03C /* WaveList.swift */,
+				8DA326F52B4E9260002FB03C /* EditView.swift */,
+				8D42841B2B60F571008722CA /* ReelViews */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -112,6 +132,7 @@
 			isa = PBXGroup;
 			children = (
 				8DA326F32B4E80F5002FB03C /* LocationModel.swift */,
+				8D42841D2B60F6A8008722CA /* CameraViewModel.swift */,
 			);
 			path = DataModel;
 			sourceTree = "<group>";
@@ -186,6 +207,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D42841E2B60F6A8008722CA /* CameraViewModel.swift in Sources */,
 				8DA326F82B4FCACE002FB03C /* WaveList.swift in Sources */,
 				8DA326D52B4E630A002FB03C /* ContentView.swift in Sources */,
 				8D42841A2B5D0E3E008722CA /* ReelView.swift in Sources */,
@@ -332,6 +354,8 @@
 				DEVELOPMENT_TEAM = JRKRYNA77K;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PlotTypeWaveLog/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -361,6 +385,8 @@
 				DEVELOPMENT_TEAM = JRKRYNA77K;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PlotTypeWaveLog/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
