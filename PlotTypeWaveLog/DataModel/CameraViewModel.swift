@@ -12,7 +12,7 @@ import AVFoundation
 class CameraViewModel: NSObject, ObservableObject, AVCaptureFileOutputRecordingDelegate  {
     
     func fileOutput(_ output: AVCaptureFileOutput, didFinishRecordingTo outputFileURL: URL, from connections: [AVCaptureConnection], error: Error?) {
-        <#code#>
+        
     }
     
     

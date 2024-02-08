@@ -14,6 +14,8 @@ struct WaveMap: View {
     
    @State private var selectedLocation: LocationModel?
     
+  let dummyURL = URL(string: "https://example.com/video.mp4")!
+
     let position = MapCameraPosition.region(
         MKCoordinateRegion(center: CLLocationCoordinate2DMake(51.507222, -0.1275), span: MKCoordinateSpan(latitudeDelta: 1, longitudeDelta: 1))
     )
@@ -48,7 +50,7 @@ struct WaveMap: View {
                     
                     if let coordinate = proxy.convert(tappedPosition, from: .local) {
                         
-                        let newLocation = LocationModel(id: UUID(), name: "surf point", latitude: coordinate.latitude, longitude: coordinate.longitude, description: "")
+                        let newLocation = LocationModel(id: UUID(), name: "surf point", latitude: coordinate.latitude, longitude: coordinate.longitude, description: "", video: dummyURL)
                         
                         locations.append(newLocation)
                         print("\(coordinate)")

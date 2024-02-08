@@ -16,13 +16,16 @@ struct LocationModel :Codable, Identifiable, Equatable {
     var latitude: Double
     var longitude: Double
     var description: String
+    var video: URL
     
     var coordinate: CLLocationCoordinate2D {
         CLLocationCoordinate2D(latitude: latitude, longitude: longitude)
     }
     
     #if DEBUG
-    static let example = LocationModel(id: UUID(), name: "Buckingham Palace", latitude: 51.501, longitude: -0.141, description: "It is palace.")
+    static let exampleURL = URL(string: "https://example.com/video.mp4")!
+
+    static let example = LocationModel(id: UUID(), name: "", latitude: 51.501, longitude: -0.141, description: "", video: exampleURL)
     #endif
     
     static func == (lhs: LocationModel, rhs: LocationModel) -> Bool {

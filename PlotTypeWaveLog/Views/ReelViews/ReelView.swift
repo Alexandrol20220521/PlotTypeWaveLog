@@ -8,8 +8,17 @@
 import SwiftUI
 
 struct ReelView: View {
+    @StateObject var cameraModel = CameraViewModel()
     var body: some View {
         ZStack(alignment: .bottom){
+            
+            //MARK: - Camera View
+            CameraView()
+                .environmentObject(cameraModel)
+                .clipShape(RoundedRectangle(cornerRadius: 25.0, style: /*@START_MENU_TOKEN@*/.continuous/*@END_MENU_TOKEN@*/))
+                .padding(.top, 10)
+                .padding(.bottom, 30)
+            
             ZStack{
                 
                 Button {
@@ -58,10 +67,13 @@ struct ReelView: View {
                 .padding(.trailing)
             }
             .frame(maxHeight: .infinity, alignment: .bottom)
-            .padding(.bottom, 10)
-            .padding(.bottom, 30)
+            //.padding(.bottom, 10)
+            .padding(.bottom, 40)
+           
+            
         }
         .preferredColorScheme(.dark)
+        .ignoresSafeArea()
         
     }
         
@@ -69,4 +81,5 @@ struct ReelView: View {
 
 #Preview {
     ReelView()
+        .environmentObject(CameraViewModel())
 }
